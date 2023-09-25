@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Darren.Tac">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" Margin="10" Padding="10" Spacing="15">
+                <Image Source="Benz.png" Aspect="AspectFit" HeightRequest="100">
+
+                </Image>
+                <Label TextColor="Black" Text="TERMS AND CONDITIONS" FontSize="30" FontAttributes="Bold" VerticalOptions="CenterAndExpand" HorizontalOptions="Center"></Label>
+                <Label TextColor="Black" FontSize="15" VerticalOptions="Center" FontAttributes="Bold">
+
+
+                    These Terms and Conditions ("Terms") govern your use of the business page ("Page") provided by [Your Company Name] ("Company," "we," or "us"). By accessing or using the Page, you agree to comply with and be bound by these Terms. If you do not agree to these Terms, please do not use the Page.
+
+**1. Access and Use**
+
+1.1. You must be at least 18 years old or the legal age of majority in your jurisdiction to use the Page.
+
+1.2. You are responsible for any content you post or share on the Page, and you must comply with all applicable laws and regulations.
+
+1.3. We reserve the right to suspend or terminate your access to the Page at our discretion, without notice, if we believe you have violated these Terms or any applicable laws.
+
+**2. Content**
+
+2.1. You may post and share content on the Page, including text, images, videos, and links, provided that it does not violate any laws, infringe on the rights of others, or violate these Terms.
+
+2.2. We do not endorse or take responsibility for any user-generated content on the Page.
+
+2.3. You grant us a non-exclusive, worldwide, royalty-free license to use, reproduce, and distribute the content you post on the Page for promotional and marketing purposes.
+
+**3. Privacy**
+
+3.1. Your privacy is important to us. Please review our Privacy Policy to understand how we collect, use, and protect your personal information.
+
+**4. Intellectual Property**
+
+4.1. All content on the Page, including text, images, logos, and trademarks, is the property of the Company or its licensors and is protected by copyright and other intellectual property laws.
+
+4.2. You may not use, reproduce, or distribute any content from the Page without our prior written consent.
+
+**5. Disclaimers**
+
+5.1. The information provided on the Page is for general informational purposes only and should not be considered as professional advice. We do not guarantee the accuracy, completeness, or reliability of any information on the Page.
+
+5.2. The Page may contain links to third-party websites or services. We are not responsible for the content, privacy practices, or terms of use of these third-party sites.
+
+**6. Limitation of Liability**
+
+6.1. To the fullest extent permitted by law, we are not liable for any direct, indirect, incidental, special, or consequential damages arising out of or in connection with your use of the Page.
+
+**7. Changes to Terms**
+
+7.1. We reserve the right to modify these Terms at any time. Changes will be effective immediately upon posting on the Page. Your continued use of the Page after any such changes constitute your acceptance of the updated Terms.
+
+**8. Termination**
+
+8.1. We may terminate or suspend your access to the Page at any time, for any reason, without notice.
+
+**9. Governing Law**
+
+9.1. These Terms are governed by and construed in accordance with the laws of [Your Jurisdiction], without regard to its conflict of law principles.
+
+**10. Contact Us**
+
+10.1. If you have any questions or concerns about these Terms, please contact us at [Contact Information].
+
+By using the Page, you agree to these Terms and acknowledge that you have read and understood them. These Terms constitute the entire agreement between you and the Company regarding your use of the Page.
+                </Label>
+
+                <StackLayout Orientation="Horizontal" Spacing="10" Margin="10">
+                    <Button Text="I Accept" BackgroundColor="ForestGreen" HorizontalOptions="EndAndExpand" CornerRadius="20" TextColor="White" Clicked="Button_Clicked" FontAttributes="Bold" FontSize="15"></Button>
+                    <Button Text="I Reject" BackgroundColor="Crimson" HorizontalOptions="StartAndExpand" CornerRadius="20" TextColor="White" Clicked="Button_Clicked_1" FontAttributes="Bold" FontSize="15"></Button>
+
+                </StackLayout>
+                
+                
+                
+               
+
+
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+
+
+
+
+
+</ContentPage>
+    
+    

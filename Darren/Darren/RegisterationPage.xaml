@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Darren.RegisterationPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" Margin="10" Padding="10" Spacing="15">
+            <Image Source="Benz.png" Aspect="AspectFit" HeightRequest="100">
+                
+            </Image>
+            <Label TextColor="ForestGreen" Text="REGISTER HERE" FontSize="30" FontAttributes="Bold" VerticalOptions="CenterAndExpand" HorizontalOptions="Center"></Label>
+            
+            <Entry Keyboard="Chat" Placeholder="First Name" TextColor="Black" ClearButtonVisibility="WhileEditing" PlaceholderColor="Gray" BackgroundColor="White" MaxLength="30"></Entry>
+
+            <Entry Keyboard="Chat" Placeholder="Last Name" TextColor="Black" ClearButtonVisibility="WhileEditing" PlaceholderColor="Gray" BackgroundColor="White" MaxLength="30"></Entry>
+
+            <Entry Keyboard="Email" Placeholder="Email" TextColor="Black" ClearButtonVisibility="WhileEditing" PlaceholderColor="Gray" BackgroundColor="White" MaxLength="30"></Entry>
+
+            <Editor Keyboard="Chat" Placeholder="Address" TextColor="Black" PlaceholderColor="Gray" BackgroundColor="White" MaxLength="30"></Editor>
+
+            <Entry Keyboard="Numeric" Placeholder="Phone Number" TextColor="Black" PlaceholderColor="Gray" ClearButtonVisibility="WhileEditing" BackgroundColor="White" MaxLength="30"></Entry>
+
+            <Entry Keyboard="Numeric" Placeholder="Password" IsPassword="True" TextColor="Black" PlaceholderColor="Gray" ClearButtonVisibility="WhileEditing" BackgroundColor="White" MaxLength="30"></Entry>
+
+            <Button Text="REGISTRATION" CornerRadius="20" TextColor="White" BackgroundColor="ForestGreen" HorizontalOptions="FillAndExpand" FontAttributes="Bold" FontSize="15" Clicked="Button_Clicked"></Button>
+
+            <Button Text="GO BACK" BackgroundColor="Black" HorizontalOptions="CenterAndExpand" CornerRadius="20" TextColor="White" Clicked="Button_Clicked_2" FontAttributes="Bold" FontSize="15"></Button>
+                   
+                    
+
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
